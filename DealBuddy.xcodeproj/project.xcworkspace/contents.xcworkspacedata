@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../DealBuddy/Deal.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../DealBuddy/DealCell.swift">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>

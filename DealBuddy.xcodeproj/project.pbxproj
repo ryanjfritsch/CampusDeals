@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		324D2A0D2023A497002B275C /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D2A0C2023A497002B275C /* Deal.swift */; };
+		324D2A0F2023A4A7002B275C /* DealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D2A0E2023A4A7002B275C /* DealCell.swift */; };
+		326FB4251EA94B9400B6D87E /* UserVoteCore+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FB4231EA94B9400B6D87E /* UserVoteCore+CoreDataClass.swift */; };
+		326FB4261EA94B9400B6D87E /* UserVoteCore+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FB4241EA94B9400B6D87E /* UserVoteCore+CoreDataProperties.swift */; };
+		327C93D01EA944D8005AFD62 /* UserDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C93CF1EA944D8005AFD62 /* UserDataHelper.swift */; };
+		328A085B1E805BE40059BC37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328A085A1E805BE40059BC37 /* AppDelegate.swift */; };
+		328A085D1E805BE40059BC37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328A085C1E805BE40059BC37 /* ViewController.swift */; };
+		328A08601E805BE40059BC37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328A085E1E805BE40059BC37 /* Main.storyboard */; };
+		328A08631E805BE40059BC37 /* DealBuddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 328A08611E805BE40059BC37 /* DealBuddy.xcdatamodeld */; };
+		328A08651E805BE40059BC37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328A08641E805BE40059BC37 /* Assets.xcassets */; };
+		328A08681E805BE40059BC37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328A08661E805BE40059BC37 /* LaunchScreen.storyboard */; };
+		328A08731E805BE40059BC37 /* DealBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328A08721E805BE40059BC37 /* DealBuddyTests.swift */; };
+		328A087E1E805BE40059BC37 /* DealBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328A087D1E805BE40059BC37 /* DealBuddyUITests.swift */; };
+		328A09131E8060190059BC37 /* AllDealsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328A09121E8060190059BC37 /* AllDealsTableViewController.swift */; };
+		328A09171E80C54C0059BC37 /* DealDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328A09161E80C54C0059BC37 /* DealDetailViewController.swift */; };
+		32C4A1F21EA53E12005C58B6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C4A1F11EA53E12005C58B6 /* CloudKit.framework */; };
+		32C4A1F81EA5CF43005C58B6 /* AddDeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C4A1F71EA5CF43005C58B6 /* AddDeal.swift */; };
+		32C4A1FE1EA5E378005C58B6 /* StoreLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C4A1FD1EA5E378005C58B6 /* StoreLocator.swift */; };
+		32C4A20E1EA74713005C58B6 /* CloudKitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C4A20D1EA74713005C58B6 /* CloudKitModel.swift */; };
+		32C4A2101EA7EECE005C58B6 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C4A20F1EA7EECE005C58B6 /* LocationHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		328A086F1E805BE40059BC37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 328A084F1E805BE40059BC37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 328A08561E805BE40059BC37;
+			remoteInfo = DealBuddy;
+		};
+		328A087A1E805BE40059BC37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 328A084F1E805BE40059BC37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 328A08561E805BE40059BC37;
+			remoteInfo = DealBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		324D2A0C2023A497002B275C /* Deal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
+		324D2A0E2023A4A7002B275C /* DealCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealCell.swift; sourceTree = "<group>"; };
+		326FB4231EA94B9400B6D87E /* UserVoteCore+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UserVoteCore+CoreDataClass.swift"; path = "../UserVoteCore+CoreDataClass.swift"; sourceTree = "<group>"; };
+		326FB4241EA94B9400B6D87E /* UserVoteCore+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UserVoteCore+CoreDataProperties.swift"; path = "../UserVoteCore+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		327C93CF1EA944D8005AFD62 /* UserDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataHelper.swift; sourceTree = "<group>"; };
+		328A08571E805BE40059BC37 /* DealBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DealBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		328A085A1E805BE40059BC37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		328A085C1E805BE40059BC37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		328A085F1E805BE40059BC37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		328A08621E805BE40059BC37 /* DealBuddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DealBuddy.xcdatamodel; sourceTree = "<group>"; };
+		328A08641E805BE40059BC37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		328A08671E805BE40059BC37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		328A08691E805BE40059BC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		328A086E1E805BE40059BC37 /* DealBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DealBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		328A08721E805BE40059BC37 /* DealBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealBuddyTests.swift; sourceTree = "<group>"; };
+		328A08741E805BE40059BC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		328A08791E805BE40059BC37 /* DealBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DealBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		328A087D1E805BE40059BC37 /* DealBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealBuddyUITests.swift; sourceTree = "<group>"; };
+		328A087F1E805BE40059BC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		328A09121E8060190059BC37 /* AllDealsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllDealsTableViewController.swift; sourceTree = "<group>"; };
+		328A09161E80C54C0059BC37 /* DealDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealDetailViewController.swift; sourceTree = "<group>"; };
+		32C4A1F11EA53E12005C58B6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		32C4A1F71EA5CF43005C58B6 /* AddDeal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDeal.swift; sourceTree = "<group>"; };
+		32C4A1FD1EA5E378005C58B6 /* StoreLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreLocator.swift; sourceTree = "<group>"; };
+		32C4A20D1EA74713005C58B6 /* CloudKitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitModel.swift; sourceTree = "<group>"; };
+		32C4A20F1EA7EECE005C58B6 /* LocationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		32D36EC51E82FD7A00990D70 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		32D36EC71E82FD8600990D70 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		328A08541E805BE40059BC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C4A1F21EA53E12005C58B6 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328A086B1E805BE40059BC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328A08761E805BE40059BC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		328A084E1E805BE40059BC37 = {
+			isa = PBXGroup;
+			children = (
+				328A08591E805BE40059BC37 /* DealBuddy */,
+				328A08711E805BE40059BC37 /* DealBuddyTests */,
+				328A087C1E805BE40059BC37 /* DealBuddyUITests */,
+				328A08581E805BE40059BC37 /* Products */,
+				32D36EC41E82FD7A00990D70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		328A08581E805BE40059BC37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				328A08571E805BE40059BC37 /* DealBuddy.app */,
+				328A086E1E805BE40059BC37 /* DealBuddyTests.xctest */,
+				328A08791E805BE40059BC37 /* DealBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		328A08591E805BE40059BC37 /* DealBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				32C4A1F71EA5CF43005C58B6 /* AddDeal.swift */,
+				328A085A1E805BE40059BC37 /* AppDelegate.swift */,
+				328A09121E8060190059BC37 /* AllDealsTableViewController.swift */,
+				32C4A20F1EA7EECE005C58B6 /* LocationHelper.swift */,
+				32C4A20D1EA74713005C58B6 /* CloudKitModel.swift */,
+				328A09161E80C54C0059BC37 /* DealDetailViewController.swift */,
+				324D2A0C2023A497002B275C /* Deal.swift */,
+				324D2A0E2023A4A7002B275C /* DealCell.swift */,
+				32C4A1FD1EA5E378005C58B6 /* StoreLocator.swift */,
+				327C93CF1EA944D8005AFD62 /* UserDataHelper.swift */,
+				328A085E1E805BE40059BC37 /* Main.storyboard */,
+				328A08641E805BE40059BC37 /* Assets.xcassets */,
+				328A08661E805BE40059BC37 /* LaunchScreen.storyboard */,
+				328A08691E805BE40059BC37 /* Info.plist */,
+				328A08611E805BE40059BC37 /* DealBuddy.xcdatamodeld */,
+				326FB4231EA94B9400B6D87E /* UserVoteCore+CoreDataClass.swift */,
+				326FB4241EA94B9400B6D87E /* UserVoteCore+CoreDataProperties.swift */,
+				328A085C1E805BE40059BC37 /* ViewController.swift */,
+			);
+			path = DealBuddy;
+			sourceTree = "<group>";
+		};
+		328A08711E805BE40059BC37 /* DealBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				328A08721E805BE40059BC37 /* DealBuddyTests.swift */,
+				328A08741E805BE40059BC37 /* Info.plist */,
+			);
+			path = DealBuddyTests;
+			sourceTree = "<group>";
+		};
+		328A087C1E805BE40059BC37 /* DealBuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				328A087D1E805BE40059BC37 /* DealBuddyUITests.swift */,
+				328A087F1E805BE40059BC37 /* Info.plist */,
+			);
+			path = DealBuddyUITests;
+			sourceTree = "<group>";
+		};
+		32D36EC41E82FD7A00990D70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32C4A1F11EA53E12005C58B6 /* CloudKit.framework */,
+				32D36EC71E82FD8600990D70 /* libz.tbd */,
+				32D36EC51E82FD7A00990D70 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		328A08561E805BE40059BC37 /* DealBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 328A08821E805BE40059BC37 /* Build configuration list for PBXNativeTarget "DealBuddy" */;
+			buildPhases = (
+				328A08531E805BE40059BC37 /* Sources */,
+				328A08541E805BE40059BC37 /* Frameworks */,
+				328A08551E805BE40059BC37 /* Resources */,
+				32D36EC31E82FD1200990D70 /* ShellScript */,
+				32D36EF91E83843200990D70 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DealBuddy;
+			productName = DealBuddy;
+			productReference = 328A08571E805BE40059BC37 /* DealBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		328A086D1E805BE40059BC37 /* DealBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 328A08851E805BE40059BC37 /* Build configuration list for PBXNativeTarget "DealBuddyTests" */;
+			buildPhases = (
+				328A086A1E805BE40059BC37 /* Sources */,
+				328A086B1E805BE40059BC37 /* Frameworks */,
+				328A086C1E805BE40059BC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				328A08701E805BE40059BC37 /* PBXTargetDependency */,
+			);
+			name = DealBuddyTests;
+			productName = DealBuddyTests;
+			productReference = 328A086E1E805BE40059BC37 /* DealBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		328A08781E805BE40059BC37 /* DealBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 328A08881E805BE40059BC37 /* Build configuration list for PBXNativeTarget "DealBuddyUITests" */;
+			buildPhases = (
+				328A08751E805BE40059BC37 /* Sources */,
+				328A08761E805BE40059BC37 /* Frameworks */,
+				328A08771E805BE40059BC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				328A087B1E805BE40059BC37 /* PBXTargetDependency */,
+			);
+			name = DealBuddyUITests;
+			productName = DealBuddyUITests;
+			productReference = 328A08791E805BE40059BC37 /* DealBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		328A084F1E805BE40059BC37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ryan Fritsch";
+				TargetAttributes = {
+					328A08561E805BE40059BC37 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8RWSHGQLY5;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					328A086D1E805BE40059BC37 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8RWSHGQLY5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 328A08561E805BE40059BC37;
+					};
+					328A08781E805BE40059BC37 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+						TestTargetID = 328A08561E805BE40059BC37;
+					};
+				};
+			};
+			buildConfigurationList = 328A08521E805BE40059BC37 /* Build configuration list for PBXProject "DealBuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 328A084E1E805BE40059BC37;
+			productRefGroup = 328A08581E805BE40059BC37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				328A08561E805BE40059BC37 /* DealBuddy */,
+				328A086D1E805BE40059BC37 /* DealBuddyTests */,
+				328A08781E805BE40059BC37 /* DealBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		328A08551E805BE40059BC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328A08681E805BE40059BC37 /* LaunchScreen.storyboard in Resources */,
+				328A08651E805BE40059BC37 /* Assets.xcassets in Resources */,
+				328A08601E805BE40059BC37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328A086C1E805BE40059BC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328A08771E805BE40059BC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32D36EC31E82FD1200990D70 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		32D36EF91E83843200990D70 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		328A08531E805BE40059BC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C4A2101EA7EECE005C58B6 /* LocationHelper.swift in Sources */,
+				328A08631E805BE40059BC37 /* DealBuddy.xcdatamodeld in Sources */,
+				32C4A1F81EA5CF43005C58B6 /* AddDeal.swift in Sources */,
+				328A085D1E805BE40059BC37 /* ViewController.swift in Sources */,
+				328A085B1E805BE40059BC37 /* AppDelegate.swift in Sources */,
+				328A09131E8060190059BC37 /* AllDealsTableViewController.swift in Sources */,
+				328A09171E80C54C0059BC37 /* DealDetailViewController.swift in Sources */,
+				32C4A20E1EA74713005C58B6 /* CloudKitModel.swift in Sources */,
+				327C93D01EA944D8005AFD62 /* UserDataHelper.swift in Sources */,
+				324D2A0F2023A4A7002B275C /* DealCell.swift in Sources */,
+				326FB4251EA94B9400B6D87E /* UserVoteCore+CoreDataClass.swift in Sources */,
+				32C4A1FE1EA5E378005C58B6 /* StoreLocator.swift in Sources */,
+				324D2A0D2023A497002B275C /* Deal.swift in Sources */,
+				326FB4261EA94B9400B6D87E /* UserVoteCore+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328A086A1E805BE40059BC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328A08731E805BE40059BC37 /* DealBuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328A08751E805BE40059BC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328A087E1E805BE40059BC37 /* DealBuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		328A08701E805BE40059BC37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 328A08561E805BE40059BC37 /* DealBuddy */;
+			targetProxy = 328A086F1E805BE40059BC37 /* PBXContainerItemProxy */;
+		};
+		328A087B1E805BE40059BC37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 328A08561E805BE40059BC37 /* DealBuddy */;
+			targetProxy = 328A087A1E805BE40059BC37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		328A085E1E805BE40059BC37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				328A085F1E805BE40059BC37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		328A08661E805BE40059BC37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				328A08671E805BE40059BC37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		328A08801E805BE40059BC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		328A08811E805BE40059BC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		328A08831E805BE40059BC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DealBuddy/DealBuddy.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DealBuddy-integration-lib-aws-my-sample-app-ios-swift/Sdk/Aws/extras",
+					"$(PROJECT_DIR)/DealBuddy-integration-lib-aws-my-sample-app-ios-swift/Sdk/Aws",
+					"$(PROJECT_DIR)/DealBuddy-integration-lib-aws-my-sample-app-ios-swift/AmazonAws",
+					"$(PROJECT_DIR)/Sdk/Aws",
+					"$(PROJECT_DIR)/AmazonAws",
+				);
+				INFOPLIST_FILE = DealBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanjfritsch.2k17.DealBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		328A08841E805BE40059BC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DealBuddy/DealBuddy.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DealBuddy-integration-lib-aws-my-sample-app-ios-swift/Sdk/Aws/extras",
+					"$(PROJECT_DIR)/DealBuddy-integration-lib-aws-my-sample-app-ios-swift/Sdk/Aws",
+					"$(PROJECT_DIR)/DealBuddy-integration-lib-aws-my-sample-app-ios-swift/AmazonAws",
+					"$(PROJECT_DIR)/Sdk/Aws",
+					"$(PROJECT_DIR)/AmazonAws",
+				);
+				INFOPLIST_FILE = DealBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanjfritsch.2k17.DealBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		328A08861E805BE40059BC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8RWSHGQLY5;
+				INFOPLIST_FILE = DealBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanjfritsch.DealBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DealBuddy.app/DealBuddy";
+			};
+			name = Debug;
+		};
+		328A08871E805BE40059BC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8RWSHGQLY5;
+				INFOPLIST_FILE = DealBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanjfritsch.DealBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DealBuddy.app/DealBuddy";
+			};
+			name = Release;
+		};
+		328A08891E805BE40059BC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DealBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanjfritsch.DealBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DealBuddy;
+			};
+			name = Debug;
+		};
+		328A088A1E805BE40059BC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DealBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanjfritsch.DealBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DealBuddy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		328A08521E805BE40059BC37 /* Build configuration list for PBXProject "DealBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328A08801E805BE40059BC37 /* Debug */,
+				328A08811E805BE40059BC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		328A08821E805BE40059BC37 /* Build configuration list for PBXNativeTarget "DealBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328A08831E805BE40059BC37 /* Debug */,
+				328A08841E805BE40059BC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		328A08851E805BE40059BC37 /* Build configuration list for PBXNativeTarget "DealBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328A08861E805BE40059BC37 /* Debug */,
+				328A08871E805BE40059BC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		328A08881E805BE40059BC37 /* Build configuration list for PBXNativeTarget "DealBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328A08891E805BE40059BC37 /* Debug */,
+				328A088A1E805BE40059BC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		328A08611E805BE40059BC37 /* DealBuddy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				328A08621E805BE40059BC37 /* DealBuddy.xcdatamodel */,
+			);
+			currentVersion = 328A08621E805BE40059BC37 /* DealBuddy.xcdatamodel */;
+			path = DealBuddy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 328A084F1E805BE40059BC37 /* Project object */;
+}
